@@ -2,5 +2,5 @@
 Тестовое с небольшой формой.
 
 ### Деплой
-Ссылка на деплой: [https://stellar-mousse-8b72b9.netlify.app/](https://6676e783a58cfac6140137e7--regal-gingersnap-2780ce.netlify.app/)
+Ссылка на деплой: https://6676e966af4203c8dc07c79c--idyllic-choux-216b58.netlify.app/
 
