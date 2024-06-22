@@ -1,0 +1,27 @@
+.InputContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: var(--input-height);
+    padding: 18px 30px;
+    gap: 15px;
+    border-radius: 8px;
+    border: 1px solid #DBDEE3;
+    background-color: var(--input-color);
+}
+
+.Input {
+    outline: none;
+    border: none;
+    background: none;
+    font: var(--font-input);
+    color: var(--font-input-color);
+    font-weight: 400;
+    width: 100%;
+    overflow: hidden;
+
+    &::placeholder {
+        color: var(--font-input-color);
+    }
+}

@@ -1,0 +1,32 @@
+.PayInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: var(--pay-info-box-height);
+    background-color: var(--pay-info-box-color);
+    padding: 15px 0;
+    gap: 5px;
+    border-radius: 8px;
+}
+
+.Amount {
+    font: var(--font-large);
+    font-weight: 600;
+    color: var(--default-font-color);
+}
+
+.Merchant {
+    display: flex;
+    align-items: center;
+    font: var(--font-small);
+    font-weight: 500;
+    color: var(--font-merchant-color);
+    gap: 10px;
+}
+
+.MerchantName {
+    font: var(--font-middle);
+    font-weight: 600;
+    color: var(--default-font-color);
+}

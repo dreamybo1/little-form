@@ -1,0 +1,38 @@
+:root {
+    --font-family-main: "Poppins", "Montserrat", "Times New Roman", serif;
+    --font-size-large: 24px;
+    --font-line-large: 36px;
+    --font-large: var(--font-size-large) / var(--font-line-large) var(--font-family-main);
+    --font-size-small: 16px;
+    --font-line-small: 24px;
+    --font-small: var(--font-size-small) / var(--font-line-small) var(--font-family-main);
+    --font-size-middle: 19px;
+    --font-line-middle: 28.5px;
+    --font-middle: var(--font-size-middle) / var(--font-line-middle) var(--font-family-main);
+    --font-size-input: 17px;
+    --font-line-input: 25.5px;
+    --font-input: var(--font-size-input) / var(--font-line-input) var(--font-family-main);
+
+    // Размеры
+    --form-header-height: 68px;
+    --form-width: 625px;
+    --form-body-height: 334px;
+    --pay-buttons-container-width: 545px;
+    --pay-buttons-container-height: 274px;
+    --pay-info-box-height: 100px;
+    --pay-buttons-height: 72px;
+    --header-buttons-width: 76px;
+    --input-height: 62px;
+    --pay-button-height: 60px;
+
+    // Палитра
+    --form-blue-color: #526eff;
+    --pay-info-box-color: #e5eaff;
+    --default-font-color: #30394d;
+    --font-merchant-color: #8a92a6;
+    --font-input-color: #b2b4c0;
+    --input-color: rgb(150 157 173 / 10%);
+    --pay-button-color: #E5EAFF;
+    --sbp-button-color: #deedff;
+    --sber-button-color: #e9e3fe;
+}

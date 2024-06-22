@@ -1,0 +1,11 @@
+{
+    "merchant": "Продавец",
+    "card_payments": "Платёжные карты",
+    "phone": "Телефон",
+    "pay": "Оплатить",
+    "telephone_number": "Номер Телефона",
+    "number": "Номер",
+    "card_number": "Номер Карты",
+    "expiry_date": "Срок Действия",
+    "card_holder": "Держатель Карты"
+}

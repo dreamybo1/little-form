@@ -1,0 +1,81 @@
+.CardPaymentForm {
+    display: flex;
+    flex-direction: column;
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+    gap: 15px;
+}
+
+.InputsRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+
+.CardNumber {
+    flex-basis: 40%;
+}
+
+.ExpiryDate {
+    flex-basis: 25%;
+}
+
+.CVV {
+    flex-basis: 25%;
+}
+
+.Title {
+    font: var(--font-small);
+    font-weight: 500;
+}
+
+.Button {
+    &Pay {
+        width: 100%;
+        padding: 18px 0;
+        height: var(--pay-button-height);
+        background-color: var(--pay-button-color);
+        border-radius: 8px;
+        font: var(--font-small);
+        color: var(--form-blue-color);
+        font-weight: 600;
+    }
+
+    &SBP {
+        width: 100%;
+        padding: 18px 0;
+        height: var(--pay-button-height);
+        background-color: var(--sbp-button-color);
+        border-radius: 8px;
+        font: var(--font-small);
+        color: var(--form-blue-color);
+        font-weight: 600;
+    }
+
+    &Sber {
+        width: 100%;
+        padding: 18px 0;
+        height: var(--pay-button-height);
+        background-color: var(--sber-button-color);
+        border-radius: 8px;
+        font: var(--font-small);
+        color: var(--form-blue-color);
+        font-weight: 600;
+    }
+}
+
+.Buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.OtherButtons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 12px;
+}

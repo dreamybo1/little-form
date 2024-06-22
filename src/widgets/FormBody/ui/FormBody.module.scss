@@ -1,0 +1,43 @@
+.FormBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 334px;
+    width: 100%;
+    border-radius: 0 0 8px 8px;
+    border: 1px solid #dbdee3;
+    padding: 30px 40px;
+    transition: 0.2s ease-in-out;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    min-height: var(--pay-buttons-container-height);
+    width: var(--pay-buttons-container-width);
+    gap: 20px;
+}
+
+.Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: var(--pay-buttons-height);
+    padding: 15px 20px;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid #DBDEE3;
+    font: var(--font-small);
+    font-weight: 500;
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+        border-color: var(--form-blue-color);
+        color: var(--form-blue-color);
+    }
+}
+
+.Open {
+    color: var(--form-blue-color);
+}

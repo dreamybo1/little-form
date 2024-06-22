@@ -1,0 +1,11 @@
+{
+    "merchant": "Merchant",
+    "card_payments": "Card payments",
+    "phone": "Phone",
+    "pay": "Pay",
+    "telephone_number": "Telephone Number",
+    "number": "Number",
+    "card_number": "Card Number",
+    "expiry_date": "Expiry Date",
+    "card_holder": "Card Holder"
+}
